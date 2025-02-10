@@ -1,6 +1,7 @@
 import DarkModeToggle from './components/DarkModeToggle';
 import DollarIcon from './assets/icons/kg-dollar.svg?react';
 import FloatingButton from './components/FloatingButton';
+import FreeMaterialsForm from '../src/components/ui/FreeMaterialsForm';
 import InitialContentToggle from './components/InitialContentToggle';
 import LockIcon from './assets/icons/kg-lock.svg?react';
 import React, {useState} from 'react';
@@ -379,6 +380,8 @@ function DemoApp({editorType, isMultiplayer}) {
             key={location.key}
             className={`koenig-lexical top`}
         >
+            <FreeMaterialsForm />
+
             {/* outside of DemoComposer to avoid re-renders and flaky tests when word count changes */}
             <WordCount tkCount={tkCount} wordCount={wordCount} />
 

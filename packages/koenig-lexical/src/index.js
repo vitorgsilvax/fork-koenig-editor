@@ -18,6 +18,7 @@ import EmojiPickerPlugin from './plugins/EmojiPickerPlugin';
 import ExternalControlPlugin from './plugins/ExternalControlPlugin';
 import FilePlugin from './plugins/FilePlugin';
 import FloatingToolbarPlugin from './plugins/FloatingToolbarPlugin';
+import FreeMaterialBannerPlugin from './plugins/FreeMaterialBannerPlugin';
 import GalleryPlugin from './plugins/GalleryPlugin';
 import HeaderPlugin from './plugins/HeaderPlugin';
 import HorizontalRulePlugin from './plugins/HorizontalRulePlugin';
@@ -91,6 +92,7 @@ export {
     TogglePlugin,
     VideoPlugin,
     WordCountPlugin,
+    FreeMaterialBannerPlugin,
 
     AllDefaultPlugins,
 

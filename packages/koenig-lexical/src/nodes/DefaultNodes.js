@@ -19,10 +19,12 @@ import {CallToActionNode} from './CallToActionNode';
 import {CalloutNode} from './CalloutNode';
 import {CodeBlockNode} from './CodeBlockNode';
 import {CollectionNode} from './CollectionNode';
+import {CustomElementsNode} from './CustomElements';
 import {EmailCtaNode} from './EmailCtaNode';
 import {EmailNode} from './EmailNode';
 import {EmbedNode} from './EmbedNode';
 import {FileNode} from './FileNode';
+import {FreeMaterialBannerNode} from './FreeMaterialBannerNode';
 import {GalleryNode} from './GalleryNode';
 import {HeaderNode} from './HeaderNode';
 import {HeadingNode, QuoteNode} from '@lexical/rich-text';
@@ -76,7 +78,9 @@ const DEFAULT_NODES = [
     TKNode,
     AtLinkNode,
     AtLinkSearchNode,
-    ZWNJNode
+    FreeMaterialBannerNode,
+    ZWNJNode,
+    CustomElementsNode
 ];
 
 export default DEFAULT_NODES;

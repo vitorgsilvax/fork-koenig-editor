@@ -18,6 +18,8 @@ import {EmailPlugin} from '../plugins/EmailPlugin';
 import {EmbedPlugin} from '../plugins/EmbedPlugin';
 import {EmojiPickerPlugin} from './EmojiPickerPlugin';
 import {FilePlugin} from '../plugins/FilePlugin';
+
+import FreeMaterialBannerPlugin from './FreeMaterialBannerPlugin.jsx';
 import {GalleryPlugin} from '../plugins/GalleryPlugin';
 import {HeaderPlugin} from '../plugins/HeaderPlugin';
 import {KoenigSnippetPlugin} from '../plugins/KoenigSnippetPlugin';
@@ -65,6 +67,7 @@ export const AllDefaultPlugins = () => {
             <SignupPlugin />
             <CollectionPlugin />
             <CallToActionPlugin />
+            <FreeMaterialBannerPlugin />
         </>
     );
 };

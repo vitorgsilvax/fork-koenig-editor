@@ -184,7 +184,7 @@ const DesignSandbox = () => {
 
     function CardMenu() {
         return (
-            <div className="z-[9999999] m-0 mb-3 max-h-[376px] w-[312px] flex-col overflow-y-auto rounded-lg bg-white bg-clip-padding p-0 text-sm shadow">
+            <div className="z-[9999999] m-0 mb-3 max-h-[376px] w-[312px] flex-col overflow-y-auto rounded-lg bg-blue-500 bg-clip-padding p-0 text-sm shadow">
                 <CardMenuSection label="Primary" />
                 <CardMenuItem desc="Upload, or embed with /image [url]" Icon={ImageCardIcon} label="Image" />
                 <CardMenuItem desc="Insert a Markdown editor card" Icon={MarkdownCardIcon} label="Markdown" />
@@ -214,6 +214,11 @@ const DesignSandbox = () => {
                 <CardMenuItem desc="/soundcloud [track or playlist url]" Icon={SoundcloudCardIcon} label="SoundCloud" />
                 <CardMenuItem desc="/nft [opensea url]" Icon={NftCardIcon} label="NFT" />
                 <CardMenuItem desc="/embed [url]" Icon={OtherCardIcon} label="Other..." />
+                <CardMenuSection label="Custom Elements" />
+                <CardMenuItem desc="Anchor" Icon={OtherCardIcon} label="Anchor" />
+                <CardMenuItem desc="Demo Button" Icon={OtherCardIcon} label="Demo Button" />
+                <CardMenuItem desc="Embed Form" Icon={OtherCardIcon} label="Embed Form" />
+                <CardMenuItem desc="Free Material Banner" Icon={OtherCardIcon} label="Free Material Banner" />
                 <CardMenuSection label="Snippets" />
                 <CardSnippetItem Icon={SnippetCardIcon} label="A random snippet" />
             </div>

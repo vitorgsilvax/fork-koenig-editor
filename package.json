@@ -64,9 +64,14 @@
         ]
       },
       {
-        "matchPackageNames": ["@tryghost/mobiledoc-kit"],
+        "matchPackageNames": [
+          "@tryghost/mobiledoc-kit"
+        ],
         "enabled": false
       }
     ]
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0"
   }
 }

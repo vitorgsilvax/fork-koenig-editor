@@ -1,4 +1,5 @@
 import FloatingButton from './components/FloatingButton';
+import FreeMaterialsForm from '../src/components/ui/FreeMaterialsForm';
 import React from 'react';
 import Sidebar from './components/Sidebar';
 import Watermark from './components/Watermark';
@@ -83,6 +84,7 @@ function HtmlOutputDemo() {
             <div
                 className="koenig-lexical top"
             >
+                <FreeMaterialsForm />
                 <KoenigComposer
                     cardConfig={{...cardConfig, snippets, createSnippet, deleteSnippet}}
                     fileUploader={{useFileUpload, fileTypes}}
