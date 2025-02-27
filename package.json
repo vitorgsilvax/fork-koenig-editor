@@ -3,6 +3,7 @@
   "repository": "https://github.com/TryGhost/Koenig",
   "author": "Ghost Foundation",
   "license": "MIT",
+  "version": "0.1.0",
   "workspaces": [
     "packages/*"
   ],
