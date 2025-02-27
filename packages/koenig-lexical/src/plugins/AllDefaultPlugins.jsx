@@ -19,6 +19,9 @@ import {EmbedPlugin} from '../plugins/EmbedPlugin';
 import {EmojiPickerPlugin} from './EmojiPickerPlugin';
 import {FilePlugin} from '../plugins/FilePlugin';
 
+import CustomAnchorPlugin from './CustomAnchorPlugin.jsx';
+import CustomDemoButtonPlugin from './CustomDemoButtonPlugin.jsx';
+import CustomEmbedFormPlugin from './CustomEmbedFormPlugin.jsx';
 import FreeMaterialBannerPlugin from './FreeMaterialBannerPlugin.jsx';
 import {GalleryPlugin} from '../plugins/GalleryPlugin';
 import {HeaderPlugin} from '../plugins/HeaderPlugin';
@@ -68,6 +71,9 @@ export const AllDefaultPlugins = () => {
             <CollectionPlugin />
             <CallToActionPlugin />
             <FreeMaterialBannerPlugin />
+            <CustomAnchorPlugin />
+            <CustomDemoButtonPlugin />
+            <CustomEmbedFormPlugin />
         </>
     );
 };

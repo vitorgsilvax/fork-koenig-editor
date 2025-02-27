@@ -19,7 +19,9 @@ import {CallToActionNode} from './CallToActionNode';
 import {CalloutNode} from './CalloutNode';
 import {CodeBlockNode} from './CodeBlockNode';
 import {CollectionNode} from './CollectionNode';
-import {CustomElementsNode} from './CustomElements';
+import {CustomAnchorNode} from './CustomAnchorNode';
+import {CustomDemoButtonNode} from './CustomDemoButtonNode';
+import {CustomEmbedFormNode} from './CustomEmbedFormNode';
 import {EmailCtaNode} from './EmailCtaNode';
 import {EmailNode} from './EmailNode';
 import {EmbedNode} from './EmbedNode';
@@ -80,7 +82,9 @@ const DEFAULT_NODES = [
     AtLinkSearchNode,
     FreeMaterialBannerNode,
     ZWNJNode,
-    CustomElementsNode
+    CustomAnchorNode,
+    CustomDemoButtonNode,
+    CustomEmbedFormNode
 ];
 
 export default DEFAULT_NODES;

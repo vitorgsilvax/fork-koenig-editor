@@ -12,6 +12,9 @@ import CallToActionPlugin from './plugins/CallToActionPlugin';
 import CalloutPlugin from './plugins/CalloutPlugin';
 import CardMenuPlugin from './plugins/CardMenuPlugin';
 import CollectionPlugin from './plugins/CollectionPlugin';
+import CustomAnchorPlugin from './plugins/CustomAnchorPlugin';
+import CustomDemoButtonPlugin from './plugins/CustomDemoButtonPlugin';
+import CustomEmbedFormPlugin from './plugins/CustomEmbedFormPlugin';
 import DragDropPastePlugin from './plugins/DragDropPastePlugin';
 import DragDropReorderPlugin from './plugins/DragDropReorderPlugin';
 import EmojiPickerPlugin from './plugins/EmojiPickerPlugin';
@@ -93,6 +96,9 @@ export {
     VideoPlugin,
     WordCountPlugin,
     FreeMaterialBannerPlugin,
+    CustomAnchorPlugin,
+    CustomDemoButtonPlugin,
+    CustomEmbedFormPlugin,
 
     AllDefaultPlugins,
 

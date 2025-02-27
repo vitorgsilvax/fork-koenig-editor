@@ -1,3 +1,6 @@
+import CustomAnchorForm from '../src/components/ui/CustomAnchorForm';
+import DemoFormModal from '../src/components/ui/DemoFormModal';
+import EmbedFormModal from '../src/components/ui/EmbedFormModal';
 import FloatingButton from './components/FloatingButton';
 import FreeMaterialsForm from '../src/components/ui/FreeMaterialsForm';
 import React from 'react';
@@ -85,6 +88,9 @@ function HtmlOutputDemo() {
                 className="koenig-lexical top"
             >
                 <FreeMaterialsForm />
+                <DemoFormModal />
+                <CustomAnchorForm />
+                <EmbedFormModal />
                 <KoenigComposer
                     cardConfig={{...cardConfig, snippets, createSnippet, deleteSnippet}}
                     fileUploader={{useFileUpload, fileTypes}}

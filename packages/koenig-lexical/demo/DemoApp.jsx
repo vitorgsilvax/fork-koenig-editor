@@ -1,5 +1,8 @@
+import CustomAnchorForm from '../src/components/ui/CustomAnchorForm';
 import DarkModeToggle from './components/DarkModeToggle';
+import DemoFormModal from '../src/components/ui/DemoFormModal';
 import DollarIcon from './assets/icons/kg-dollar.svg?react';
+import EmbedFormModal from '../src/components/ui/EmbedFormModal';
 import FloatingButton from './components/FloatingButton';
 import FreeMaterialsForm from '../src/components/ui/FreeMaterialsForm';
 import InitialContentToggle from './components/InitialContentToggle';
@@ -381,6 +384,9 @@ function DemoApp({editorType, isMultiplayer}) {
             className={`koenig-lexical top`}
         >
             <FreeMaterialsForm />
+            <DemoFormModal />
+            <CustomAnchorForm />
+            <EmbedFormModal />
 
             {/* outside of DemoComposer to avoid re-renders and flaky tests when word count changes */}
             <WordCount tkCount={tkCount} wordCount={wordCount} />
